@@ -1,0 +1,27 @@
+package pertemuan21;
+
+import java.util.Scanner;
+
+public class day21 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.print("masukan panjang tanah : ");
+        int panjang_tanah = sc.nextInt();
+         
+        System.out.print("masukkan lebar tanah : ");
+        int lebartanah = sc.nextInt();
+        
+        int hargajualpermeter = 500000;
+        int luas = panjang_tanah * lebartanah;
+        int hargatanah = luas * hargajualpermeter ;
+        
+        System.out.println(luas);
+         
+         
+         
+    }   
+    
+}
+
+    
+
