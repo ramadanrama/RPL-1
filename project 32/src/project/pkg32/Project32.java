@@ -9,7 +9,7 @@ public class Project32 {
         
         int nilai;
         String nama;
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);//user input
 
         // mengambil input
         System.out.print("Nama: ");
